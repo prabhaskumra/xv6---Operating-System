@@ -1,0 +1,10 @@
+echo Hello World!
+echo Running test script
+sample_program
+echo Making directory: myDir
+mkdir myDir
+ls
+echo Removing directory: myDir
+rm myDir
+ls
+echo Test script done!
