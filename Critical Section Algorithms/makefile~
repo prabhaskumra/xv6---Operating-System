@@ -1,0 +1,5 @@
+all: prime.c
+	gcc-5 -std=c11 prime.c -o -g prime -pthread -lm
+
+clean:
+	$(RM) prime
